@@ -1,0 +1,247 @@
+body {
+    background-color: white;
+}
+
+.navbar-brand {
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.nav-bar {
+    background-color: #F8F9FA;
+}
+
+/* Banner section */
+
+#banner{
+    background-image: linear-gradient(to right, #FF6A1B, #918af7);
+    color: white;
+    padding-top: 5%;
+}
+
+#home-img{
+    margin-bottom: 85px;
+    width: 100%;
+}
+
+#welcome-pretext{
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+#welcome-posttext{
+    font-size: 20px;
+}
+.welcome-title{
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+/* Sobre mi section*/
+#sobre-mi{
+    margin-top: 150px;
+    margin-bottom: 120px;
+    font-weight: 600;
+}
+
+#info-personal{
+    margin-bottom: 105px;
+}
+
+
+#foto-perfil{
+    background-image: linear-gradient(to right, #FF6A1B, #ffb790);
+    width: 70%;
+    height: 80%;
+    margin-bottom: 85px;
+    margin-left: 100px;
+}
+
+#sobre-mi::before{
+    content: '';
+    background: #FF6A1B;
+    height: 5px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(53px);
+}
+
+#pe{
+    width: 20px;
+    height: 20px;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    width: 70%;
+    height: 80%; 
+    background-image: linear-gradient(to right, #AF81BB, #918af7);
+    z-index: -1;
+  }
+
+.text-personal-1, .text-personal-2{
+    font-size: 20px;
+}
+
+.text-personal-1{
+    margin-bottom: 40px;
+}
+
+/* Formacion profesional*/
+
+#formacion-profesional{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #faf0eb;
+}
+
+.educacion-title{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.educacion-title::before{
+    content: '';
+    background: #FF6A1B;
+    height: 5px;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(53px);
+}
+
+
+#formacion-container{
+    margin-top: 70px;
+}
+
+#formacion-img{
+    width: 100%;
+    height: 95%;
+}
+
+.years{
+    color: #FF6A1B;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.spec{
+    font-size: 19px;
+}
+
+
+/* Seccion Hobbies*/
+
+#hobbies{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.hobbies-title{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.hobbies-title::before{
+    content: '';
+    background: #FF6A1B;
+    height: 5px;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(53px);
+}
+
+#hobbie-img{
+    width: 70%;
+    height: 50%;
+    border: 4px solid #FF6A1B;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hobbie-text{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 200px;
+}
+
+
+/* Seccion Articulo*/
+#articulos{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.article-title{
+    margin-top:10px;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.carousel.slide{
+    padding-bottom: 100px;
+}
+
+.article-title::before{
+    content: '';
+    background: #FF6A1B;
+    height: 5px;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(53px);
+}
+
+.carrusel-title{
+    font-weight: bold;
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.carrusel-text{
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+/*Footer*/
+footer{
+    background-image:  linear-gradient(to right, #FF6A1B, #918af7);
+    color: white;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding: 20px;
+}
+
+#footer-links{
+    color: white;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
